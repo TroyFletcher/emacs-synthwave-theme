@@ -7,7 +7,7 @@ I'm still new to emacs, and this is a rather simplistic conversion, so PLEASE fe
 
 What follows are the design goals of my Synthwave theme, some are Vim specific, so don't hate.
 
-### vim synthwave
+### emacs synthwave
 ![alt text](https://github.com/TroyFletcher/emacs-synthwave-theme/blob/master/emacs-theme-synthwave-banner.jpg "Banner")
 ***
 All you need to relive the neon glory days A E S T H E T I C
