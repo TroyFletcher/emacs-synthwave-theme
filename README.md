@@ -22,3 +22,6 @@ All you need to relive the neon glory days A E S T H E T I C
 6. Very bright match paren highlight
 7. Effort to contrast commonly nearby syntax object types to opposing colors
 9. Easily distinguished comments
+
+### Screenshot
+![alt text](https://github.com/TroyFletcher/emacs-synthwave-theme/blob/master/emacs_synthwave_screencap.png "Screenshot 1")
