@@ -103,11 +103,11 @@
 			'(mode-line-buffer-id
 			  ((((class color)
 			     (min-colors 89))
-			    (:weight bold :background "#0098a3" :foreground "#000000"))))
+			    (:weight bold :background "#00ffff" :foreground "#000000"))))
 			'(mode-line
 			  ((((class color)
 			     (min-colors 89))
-			    (:weight bold :background "#ff00bb" :foreground "#000000"))))
+			    (:weight bold :background "#5f00d7" :foreground "#000000"))))
 			'(fringe
 			  ((((class color)
 			     (min-colors 89))
