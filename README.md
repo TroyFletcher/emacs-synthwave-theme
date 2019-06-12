@@ -1,6 +1,4 @@
 # emacs-synthwave-theme
-A high contrast Emacs theme with bonus ａｅｓｔｈｅｔｉｃ
-
 This project is a shameless conversion of my vim-colors-synthwave theme for the emacs convert or dabbler
 
 Converted automagically to emacs from https://github.com/TroyFletcher/vim-colors-synthwave using this sweet bit of code: https://github.com/DoMiNeLa10/vimco
