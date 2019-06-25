@@ -10,7 +10,6 @@
 ;;; Code:
 
 (deftheme synthwave)
-
 (custom-theme-set-faces 'synthwave
 			'(underline
 			  ((((class color)
@@ -72,6 +71,10 @@
 			  ((((class color)
 			     (min-colors 89))
 			    (:background "#333333"))))
+			'(hl-line
+			  ((((class color)
+			     (min-colors 89))
+			    (:background "#480a4c"))))
 			'(highline-face
 			  ((((class color)
 			     (min-colors 89))
