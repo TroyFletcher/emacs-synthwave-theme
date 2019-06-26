@@ -1,13 +1,49 @@
-;;; synthwave-theme.el --- Custom face theme for Emacs
+;;; synthwave-theme.el --- 1980's Emacs color theme on dark background
+
+;; Copyright (C) 2003-2019 Free Software Foundation, Inc.
+
+;; Author:TroyFletcher
+;; URL: https://github.com/TroyFletcher/emacs-synthwave-theme
+;; Version: 201906...
+;; Keywords: color theme
 
 ;; This theme was generated with vimco.el
-;; You can get it from:
-;; <https://github.com/DoMiNeLa10/vimco>
-;; 
-;; Absolutely legend, this guy ^^^^ -Troy
-;; 
- 
+;;   You can get it from:
+;;   <https://github.com/DoMiNeLa10/vimco>
+;;
+;;   Absolutely legend, this guy ^^^^ -Troy
+;;
+;; This file is part of GNU Emacs.
+
+;; GNU Emacs is free software: you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+
+;; GNU Emacs is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with GNU Emacs.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Commentary:
+
+;; This high-contrast 1980's retro cyber theme uses bright colors on a
+;; dark background.
+;;
+;; To use it, put the following in your Emacs configuration file:
+;;
+;;   (load-theme 'synthwave t)
+;;
+;; Code remodeled to match leuven-theme.el style and extended to more modes
+;;
+;; Requirements: Emacs 24+.
+;;
+
 ;;; Code:
+
 
 (deftheme synthwave)
 (custom-theme-set-faces 'synthwave
