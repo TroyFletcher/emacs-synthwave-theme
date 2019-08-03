@@ -84,8 +84,8 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
 (let* (
        (class '((class color) (min-colors 89)))
        ;; Synthwave colors
-       (near-black "#100c0c")
-       (near-near-black "#181214")
+       (near-black "#181615")
+       (near-near-black "#191716")
        (near-white "#f9f9f9")
        (near-near-white "#e0e0e0")
 
@@ -151,7 +151,7 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
        (grep-file-name `(:weight bold :foreground ,synth-cyan))
        (grep-line-number `(:weight bold :foreground ,synth-green))
 
-       (highlight-current-line `(:background ,synth-subtle-cyan))
+       (highlight-current-line `(:background ,synth-deep-purple))
        (highlight-current-tag `(:background ,synth-dark-gray))
 
        (highlight-blue `(:background ,synth-dark-blue))
@@ -205,7 +205,7 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
    `(underline ((,class (:underline t :background ,near-near-black :foreground ,near-white))))
 
    ;; highlight faces
-   `(fringe ((,class (:underline t :background ,synth-orange :foreground ,synth-blue))))
+   `(fringe ((,class (:underline t :background ,synth-deep-cyan :foreground ,synth-light-cyan))))
    `(highlight ((,class ,highlight-current-line)))
    `(highlight-changes ((,class (:foreground nil)))) ;; leuven comment: blue "#2E08B5"
    `(highlight-changes-delete ((,class (:strike-through nil :foreground nil)))) ;; leuven comment: red "#B5082E"
@@ -271,7 +271,7 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
    `(mode-line-inactive ((,class (:weight bold :background ,mode-line-inactive :foreground ,near-black))))
 
    ;; font-lock faces
-   `(font-lock-builtin-face ((,class (:weight bold :foreground ,synth-pale-cyan))))
+   `(font-lock-builtin-face ((,class (:weight bold :foreground ,synth-pale-cyan)))) ;6cddf1
    `(font-lock-comment-delimiter-face ((,class (:foreground ,synth-dark-pink))))
    `(font-lock-comment-face ((,class (:background "#000000" :foreground ,synth-deep-pink))))
    `(font-lock-constant-face ((,class (:foreground ,synth-gray))))
@@ -364,7 +364,7 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
    `(org-sexp-date ((,class (:foreground ,synth-dark-pink))))
    `(org-special-keyword ((,class (:weight bold :foreground ,synth-deep-cyan :background ,near-near-black))))
    `(org-table ((,class (:foreground ,synth-light-blue :background ,near-near-black)))) ;; :inherit fixed-pitch))))
-   `(org-tag ((,class (:weight normal :slant italic :foreground ,near-black :background ,synth-gray))))
+   `(org-tag ((,class (:weight normal :slant italic :foreground ,near-near-white :background ,synth-deep-gold))))
    `(org-target ((,class (:foreground ,synth-pale-blue))))
    `(org-time-grid ((,class (:foreground ,near-near-white))))
    `(org-todo ((,class (:weight bold :box (:line-width 1 :color ,synth-pale-purple) :foreground ,synth-gold :background ,synth-deep-purple))))
