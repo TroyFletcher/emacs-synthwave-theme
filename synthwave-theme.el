@@ -394,6 +394,11 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
   )
 )
 
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
 (provide-theme 'synthwave)
 ;; Local Variables:
 ;; no-byte-compile: t
