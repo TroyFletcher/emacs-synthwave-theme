@@ -177,14 +177,14 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
 
        (match `(:weight bold :background ,synth-gold)) ; occur patterns + match in helm for files + match in Org files.
 
-       (ol1 `(,@(synthwave-scale-font synthwave-scale-outline-headlines 1.4) :weight bold :overline ,synth-deep-red :foreground ,synth-pink :background ,near-near-black))
-       (ol2 `(,@(synthwave-scale-font synthwave-scale-outline-headlines 1.2) :weight bold :overline ,synth-deep-purple :foreground ,synth-pale-purple :background ,near-near-black))
-       (ol3 `(:height 1.0 :weight bold :foreground ,synth-dark-pink :background ,near-near-black))
-       (ol4 `(:height 1.0 :weight bold :slant normal :foreground ,synth-deep-gold))
-       (ol5 `(:height 1.0 :weight bold :slant normal :foreground ,synth-dark-gold))
-       (ol6 `(:height 1.0 :weight bold :slant italic :foreground ,synth-deep-orange))
-       (ol7 `(:height 1.0 :weight bold :slant italic :foreground ,synth-deep-red))
-       (ol8 `(:height 1.0 :weight bold :slant italic :foreground ,synth-dark-red))
+       (ol1 `(,@(synthwave-scale-font synthwave-scale-outline-headlines 1.5) :weight bold :overline ,synth-deep-purple :foreground ,synth-pink :background ,near-near-black))
+       (ol2 `(,@(synthwave-scale-font synthwave-scale-outline-headlines 1.3) :weight bold :overline ,synth-deep-purple :foreground ,synth-cyan :background ,near-near-black))
+       (ol3 `(,@(synthwave-scale-font synthwave-scale-outline-headlines 1.3) :weight bold :foreground ,synth-lilac :background ,near-near-black))
+       (ol4 `(:height 1.0 :weight bold :slant normal :foreground ,synth-pale-purple))
+       (ol5 `(:height 1.0 :weight bold :slant normal :foreground ,synth-pale-pink))
+       (ol6 `(:height 1.0 :weight bold :slant italic :foreground ,synth-gold))
+       (ol7 `(:height 1.0 :weight bold :slant italic :foreground ,synth-light-cyan))
+       (ol8 `(:height 1.0 :weight bold :slant italic :foreground ,synth-deep-red))
 
        (paren-matched `(:background ,synth-dark-green))
        (paren-unmatched `(:weight bold :underline ,synth-dark-red :foreground ,synth-deep-red :background ,near-near-black))
