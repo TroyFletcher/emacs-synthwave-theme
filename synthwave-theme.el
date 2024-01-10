@@ -205,7 +205,7 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
    `(underline ((,class (:underline t :background ,near-near-black :foreground ,near-white))))
 
    ;; highlight faces
-   `(fringe ((,class (:underline t :background ,synth-deep-cyan :foreground ,synth-light-cyan))))
+   `(fringe ((,class (:underline t :background ,synth-subtle-purple :foreground ,synth-light-cyan))))
    `(highlight ((,class ,highlight-current-line)))
    `(highlight-changes ((,class (:foreground nil)))) ;; leuven comment: blue "#2E08B5"
    `(highlight-changes-delete ((,class (:strike-through nil :foreground nil)))) ;; leuven comment: red "#B5082E"
@@ -364,7 +364,7 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
    `(org-sexp-date ((,class (:foreground ,synth-dark-pink))))
    `(org-special-keyword ((,class (:weight bold :foreground ,synth-deep-cyan :background ,near-near-black))))
    `(org-table ((,class (:foreground ,synth-light-blue :background ,near-near-black)))) ;; :inherit fixed-pitch))))
-   `(org-tag ((,class (:weight normal :slant italic :foreground ,near-near-white :background ,synth-deep-gold))))
+   `(org-tag ((,class (:weight normal :slant italic :foreground ,near-white :background ,synth-blue))))
    `(org-target ((,class (:foreground ,synth-pale-blue))))
    `(org-time-grid ((,class (:foreground ,near-near-white))))
    `(org-todo ((,class (:weight bold :box (:line-width 1 :color ,synth-pale-purple) :foreground ,synth-gold :background ,synth-deep-purple))))
