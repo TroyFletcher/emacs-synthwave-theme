@@ -385,6 +385,9 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
    `(emms-playlist-track-face ((,class (:weight bold :foreground ,synth-pink))))
    `(emms-playlist-selected-face ((,class (:slant italic :weight bold :foreground ,synth-cyan))))
 
+   ;; git faces
+   `(git-commit-summary ((,class (:weight bold :foreground ,near-white))))
+
    ;; ----------------------------------------------------------
    `(show-paren-match-face ((,class (:background "#333333"))))
    `(ac-selection-face ((,class (:background "#891a8f" :foreground "white"))))
