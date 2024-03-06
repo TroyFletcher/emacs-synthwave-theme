@@ -364,7 +364,7 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
    `(org-sexp-date ((,class (:foreground ,synth-dark-pink))))
    `(org-special-keyword ((,class (:weight bold :foreground ,synth-deep-cyan :background ,near-near-black))))
    `(org-table ((,class (:foreground ,synth-light-blue :background ,near-near-black)))) ;; :inherit fixed-pitch))))
-   `(org-tag ((,class (:weight normal :slant italic :foreground ,near-white :background ,synth-blue))))
+   `(org-tag ((,class (:weight normal :slant italic :foreground ,near-near-white :background ,synth-blue))))
    `(org-target ((,class (:foreground ,synth-pale-blue))))
    `(org-time-grid ((,class (:foreground ,near-near-white))))
    `(org-todo ((,class (:weight bold :box (:line-width 1 :color ,synth-pale-purple) :foreground ,synth-gold :background ,synth-deep-purple))))
