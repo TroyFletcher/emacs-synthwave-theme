@@ -214,7 +214,7 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
    `(hl-tags-face ((,class ,highlight-current-tag))) ; ~ Pair highlighting (matching tags).
    `(isearch ((,class (:inverse-video t :background ,synth-deep-pink :foreground "white"))))
    `(isearch-lazy-highlight-face ((,class (:inverse-video t :background ,synth-pink :foreground "white"))))
-   `(lazy-highlight ((,class (:foreground ,near-near-black :background ,synth-dark-gold)))) ; Isearch others (see `match')
+   `(lazy-highlight ((,class (:weight bold :foreground ,near-black :background ,synth-pink)))) ; Isearch others (see `match')
    `(region ((,class (:inverse-video t :background ,synth-deep-purple))))
    `(secondary-selection ((,class ,match))) ; Used by Org-mode for highlighting matched entries and keywords..
    `(query-replace ((,class (:inherit isearch))))
