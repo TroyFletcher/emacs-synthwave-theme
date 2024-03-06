@@ -205,7 +205,7 @@ CONTROL can be a number, nil, or t.  When t, use DEFAULT-HEIGHT."
    `(underline ((,class (:underline t :background ,near-near-black :foreground ,near-white))))
 
    ;; highlight faces
-   `(fringe ((,class (:underline t :background ,synth-subtle-purple :foreground ,synth-light-cyan))))
+   `(fringe ((,class (:underline t :background ,synth-deep-blue :foreground ,synth-light-cyan)))) ;; Num 15 39
    `(highlight ((,class ,highlight-current-line)))
    `(highlight-changes ((,class (:foreground nil)))) ;; leuven comment: blue "#2E08B5"
    `(highlight-changes-delete ((,class (:strike-through nil :foreground nil)))) ;; leuven comment: red "#B5082E"
